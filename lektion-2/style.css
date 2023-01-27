@@ -1,4 +1,4 @@
-html{height: 100%}
+/* html{height: 100%}
 body
 {
  margin: 0;
@@ -18,4 +18,10 @@ background: rgba(0,0,0.5);
 box-shadow: 0 15px 25px rgba(0,0,0.5);
 box-sizing: border-box;
 border-radius:10px;
-}
+} */
+/* div{background-color: blue} */
+.bg-blue{background-color: yellow}
+#div-1
+{color:blue; background-color:black ;}
+
+.bg-red{background-color:red}
