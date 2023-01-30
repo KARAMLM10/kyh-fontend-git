@@ -20,8 +20,24 @@ box-sizing: border-box;
 border-radius:10px;
 } */
 /* div{background-color: blue} */
-.bg-blue{background-color: yellow}
+/* .bg-blue{background-color: yellow}
 #div-1
 {color:blue; background-color:black ;}
 
-.bg-red{background-color:red}
+.bg-red{background-color:red} */
+#parent
+{
+display:flex;
+justify-content: space-between;
+
+}
+.box
+{
+    border: 1px solid black;
+    /* text-align: center; */
+    /* height:100px; */
+    width: 100px; 
+    justify-content: center;
+    align-items: center;
+    align-items: stretch;
+}
