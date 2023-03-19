@@ -1,0 +1,101 @@
+/* .center-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#id1{
+    color: blue;
+    width: 100px;
+    height: inherit;
+    
+}
+  */
+/* #parent{
+    display:flex;
+    flex-direction:row;
+     justify-content: flex-start;
+
+}
+.box{
+    border:solid 1px lightgray;
+}
+#child-1{
+flex:1;
+order:1;
+text-align: center;
+align-items: center;
+justify-content: flex;
+}
+@media (min-width: 992px){
+    #child-2{
+        flex:1;
+        order:2;
+        
+        text-align: right;
+        
+        }
+}
+
+#child-3{
+   display: none;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap%27);
+
+html, body{
+    font-family: 'Poppins', sans-serif;
+    color: #222529;
+} 
+
+/* header /
+
+header {
+
+}
+/ logotype /
+header .logotype{
+    font-size: 35px;
+    font-weight: 700;
+
+}
+/ menu links /
+header .menu-links{
+    font-weight: 500;
+
+}
+header .menu-links .menu-links:hover,
+header .menu-links .menu-links.active{
+    color: #ff7373;
+    text-decoration: none;
+}
+
+header .menu-links .menu-links{
+    color: #222529;
+    text-decoration: none;
+}
+/ menu-icons */
+header .menu-icons{
+    display: flex;
+
+}
+
+header .menu-icons .menu-links{
+    color: #222529;
+    height: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 50%;
+
+}
+header .menu-icons .menu-links:hover,
+header .menu-icons .menu-links.active{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #222529;
+
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/41c8b474e2.css" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Barcelona</title>
+</head>
+<bod>
+    <!-- HTTP METHODS-->
+    <!-- 
+                                                    CRUD            data skickas via
+        ------------------------------------------------------------------------------------
+        post  skicka information/data                create         body  (kuvert med ett vykort) 
+        get   hämta information/data                 read           query/url (vykort )
+        
+        delete      ta bort information/data         delete         query/body 
+        patch       uppdaterar information/data      update         query/body 
+        put         ersätta information/data         update         query/body 
+    parametrar
+    -->
+
+    <div class="container mt-4">
+        <form method="get">
+            <input type="text" name="firstname">
+            <input type="password" name="password">
+            <button typ="submit">skicka</button>
+        </form>
+
+    </div>
+
+</bod>
+</html>

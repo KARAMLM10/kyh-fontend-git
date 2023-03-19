@@ -1,0 +1,56 @@
+Introduktion
+Nu har det blivit dags för din individuella inlämningsuppgift. Du ska i denna inlämningsuppgift bygga upp två sidor för en e-handelssida vid namn Fixxo. I denna inlämningsuppgift så har du fått tillgång till en fil som heter Fixxo - designmall.zip i den zip-filen finns en .xd fil som kan öppnas upp med Adobe XD eller Sketch (skulle du inte kunna öppna den så har du även tillgång till bilder som visar hur det ska se ut). Du ska utgå från denna designfil och bygga upp dessa två sidor som finns presenterade i filen. Då designfilen inte följer den standard som man normalt brukar använda sig av när det kommer till webdesign så kommer du behöva ta olika designbeslut. Detta kommer göra att vissa delar kommer skilja sig från designfilen och det är helt okej.
+
+
+
+Din hemsida kan kvara skriven i statiska HTML-filer eller använda sig av exempelvis React. Det finns inga speciella krav för detta utan det är något du får välja själv.
+
+
+
+För godkänt krävs följande:
+
+Du ska bygga upp samtliga delar som finns med på förstasidan (Home).
+Du ska bygga upp samtliga delar som finns med på kontaktsidan (Contacts).
+Det ska finnas en god kodstruktur för både HTML och CSS.
+Du ska ha använt dig utav flexbox för lämpliga delar i din design.
+Du ska ha använt dig av CSS-grid för lämpliga delar i din design.
+Alla knappar och länkar ska ha en animering/transition på sig.
+
+
+För väl godkänt krävs följande:
+
+Alla krav som finns i godkänt nivån ska vara uppfyllda.
+Du ska använda dig av SCSS och dess struktur för att strukturera din CSS-kod.
+Kontaktformuläret ska valideras med hjälp av Javascript och skriva ut lämpliga felmeddelanden om inte godtycklig information har angivits.
+Kontaktformuläret ska skicka den validerade informationen till ett web api som du får tillgång till i denna uppgift och därefter skriva ut ett meddelande att förfrågan har skickats.
+Förstasidan ska visa produkter som kommer från ett web api som du får tillgång till i denna inlämningsuppgift.
+
+
+
+
+
+Fixxo - Designmall.zip
+Länk till web api för att hämta produkter (tags: featured, new, popular) :
+
+https://kyh-net22.azurewebsites.net/api/products/{tag}
+
+
+
+Länk till web api för att skicka informationen från kontaktformuläret:
+
+https://kyh-net22.azurewebsites.net/api/contacts
+
+
+
+
+
+
+
+Inlämning av inlämningsuppgiften
+Du lämnar in din uppgift genom att du skriver in din länk till din publika github repository som du skapat för denna inlämningsuppgift i fältet här nedanför och sedan trycker på lämna in.
+
+
+
+Ange din publika GitHub-Länk i fältet här nedan:
+
+

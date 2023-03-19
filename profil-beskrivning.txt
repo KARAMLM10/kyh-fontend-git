@@ -1,0 +1,1 @@
+Jag studerar till .Net-Developer. Utbildningens fokus har varit fullstack utveckling, där det innefattar backend som exempelvis c#, mssql, enitity framework core. samt frontend där react,ooom

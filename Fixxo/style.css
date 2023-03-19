@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
 
-html, body {
+/* html ,body {
+  background-color: #FF7373;
     color : #222529;
-    font-family: 'poppins', sans-serif;
-    font-weight:400;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:300;
     font-size: 16px;
-}
+} */
+/*
+överrustar 
+
+*/
 
   a{
    color: #FF7373;
@@ -34,8 +38,9 @@ html, body {
 
 
   #header {
-          padding-top: 10px;
-         padding-bottom: 10px;
+          padding-top: 20px;
+         padding-bottom: 20px;
+         background-color: #FF7373;
      }
 
      #header .container{
@@ -64,8 +69,10 @@ html, body {
            }
            #header .container .menu-icons{
             display: flex;
+            color:#222529;
            }
            #header .container .menu-icons .Link-circle{
             margin-left: 10px;
-           }
+            
+          }
 

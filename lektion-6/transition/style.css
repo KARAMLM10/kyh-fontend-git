@@ -1,0 +1,22 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue; 
+    background-color:antiquewhite;
+    transition: all 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.box:hover{
+    background-color:lightskyblue;
+    color: white; 
+    transform: rotate(360deg);
+}

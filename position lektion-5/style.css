@@ -1,0 +1,29 @@
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: bisque;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#parent {
+   
+}
+
+#child-1 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    top: 90px;
+    left: 90px;
+    border-radius: 500px;
+}
+#child-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

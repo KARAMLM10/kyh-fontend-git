@@ -1,0 +1,140 @@
+html, body{
+    font-family: 'Poppins', sans-serif;
+    color: #222529;
+}
+/* header */
+header {
+
+}
+header .container{
+ display: flex; 
+ align-items: center;
+ justify-content: space-between;
+ max-width: 1680px;
+
+}
+/* logotype */
+header .logotype{
+    flex: 1;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+/* menu links */
+header .menu-links{
+    flex: 1; 
+    font-weight: 500;
+      font-size: 35px;
+}
+header .menu-links .menu-link {
+    color:#222529;
+    text-decoration: none;
+    margin-left: 12px;
+    margin-right: 12px;
+
+}
+header .menu-links .menu-link:hover,
+header .menu-links .menu-link.active{
+    color: #ff7373;
+    text-decoration: none;
+}
+
+@media(min-width:992px){
+    header .menu-links{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+/* 
+header .menu-links .menu-link{
+    color: #222529;
+    text-decoration: none;
+} */
+/* menu-icons */
+header .menu-icons{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .menu-icons .menu-linkss{
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF; 
+    color: #222529;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 0 5px rgba(0,0,0,15);
+    margin: 5px;
+
+}
+header .menu-icons .menu-linkss:hover,
+header .menu-icons .menu-linkss.active{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #222529;
+
+}
+/* showcase*/
+
+.title-1{
+    font-size:65px;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 32px;
+}
+.title-2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+.title-3{
+    font-size:20px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 16px;
+
+}
+.showcase{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.showcase .content{
+    
+    margin-left: 50px;
+    margin-right: 0;
+    padding-top: 50px;
+
+}
+
+.showcase .image{
+    margin-left: 0;
+    margin-right: 70px;
+    padding-top: 50px;
+}
+.btn{
+    color:#ff7373
+}
+/* .btn:visited {
+    background-color: cyan;
+  } */
+  
+  .btn:hover {
+    background-color: rgb(119, 13, 151);
+    
+  }
+  .showcase .content .btn:hover{
+    color: lightgray;
+  }
+  
+  /* .btn:active {
+    background-color: hotpink;
+  }  */

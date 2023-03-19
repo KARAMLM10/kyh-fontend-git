@@ -1,0 +1,10 @@
+.header{
+    font-size:40rem;
+
+   .title-1{
+         @include font-headline-1;
+   }
+        .title-2{
+            @include font-headline-2;
+        }
+}
